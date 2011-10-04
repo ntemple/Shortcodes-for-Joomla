@@ -1,3 +1,7 @@
+This is an implementation of Wordpress shortcodes inside the Joomla 1.5 framework as a plugin.
+
+Installation
+
 1. In your Joomla! installation, login to the back-end and navigate to Extensions | Install / Uninstall
 
 2. Go to shortcode project on github to get the latest download link, copy the download link, adding /shortcode.zip to the end of the url. Copy & paste the link into the “Install from URL” field.
