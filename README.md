@@ -1,5 +1,11 @@
 This is an implementation of Wordpress shortcodes inside the Joomla 1.5 framework as a plugin.
 
+Commercial Support, Shortcodes and Documentation Available:
+
+* http://extensionwebstore.com/store/product/joomla.shortcodepak.html
+* http://www.intellispire.com/web/articles/wordpress-shortcodes-for-joomla-news1.html
+* http://www.intellispire.com/blog/2012/02/shortcodes/
+
 Installation
 
 1. In your Joomla! installation, login to the back-end and navigate to Extensions | Install / Uninstall
