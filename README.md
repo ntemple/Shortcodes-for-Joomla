@@ -16,23 +16,22 @@ This is a “trick” needed because Joomla is going to guess the type of file f
 
 4. Now, enable the plugin – go to Extensions | Plugin Manager, find “System – Shortcodes”
 
+You will also want to select "Run on Content Only" or "Run Sitewide". Sitewide is faster and gives you more flexibility, but Content only is more secure and the default.
+
 What can wrong: The shortcodes plugin creates a  new directory under plugins/shortcodes to hold all your shortcodes. If it can’t create these files, then the system will silently fail. You can manually create that directory if you need to.
 
 Testing
-By default, the “test” shortcode is created. Simply go to any article page, enter [test] , and you should see “Hello shortcode world!”
 
-Adding Shortcodes:
+Shortcodes can be installed as standard plugins in the shortcodes folder.
 
-* You can edit plugins/shortcodes/default.php and put your shortcode code directly in that file
-
-* You can drop php files directly into the plugins/shortcodes/ directory, and they will be loaded when the plugin is activated.
-
-Many WordPress shortcodes will work, however Joomla is not WordPress – plugins that were written to specifically use the WordPress internals won’t work out of the box.
+Many WordPress shortcodes will work, however Joomla! is not WordPress – plugins that were written to specifically use the WordPress internals won’t work out of the box.
 
 Creating Shortcodes
 
 WordPress has great documentation, and it’s all relevant to this implementation (because it DOES use the WordPress code). See:
 http://codex.wordpress.org/Shortcode_API
 
+Just package it up as a standard Joomla install plugin with type="shortcode". You can then install / uninstall, enable / disable the shortcode package just like any other shortcode.
+
 Security
-This is “beta” code, and anyone with the ability to enter content into your joomla system can access the shortcodes you have installed. Use at your own risk.
+This is “beta” code, and anyone with the ability to enter content into your joomla system can access the shortcodes you have installed.Use at your own risk.
